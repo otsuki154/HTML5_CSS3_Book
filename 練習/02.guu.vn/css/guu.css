@@ -80,10 +80,8 @@ div.tieudeto {
 
 /* css cho khoi to nhat */
 div.tonhat {
-  /* height: 645px; */
+  height: 660px;
   width: 1165px;
   float: left;
-  /* margin: auto; */
-  /* display: flex;
-  align-items: flex-start; */
+  margin: auto;
 }
