@@ -82,6 +82,7 @@ div.tieudeto {
 div.tonhat {
   height: 660px;
   width: 1165px;
-  float: left;
+  /* float: left; */
   margin: auto;
+  /* background-color: black; */
 }

@@ -70,6 +70,7 @@
   list-style: none;
   border-bottom: dotted rgb(209, 205, 205) 1px;
   padding: 10px 0px;
+  /* display: block; */
 }
 
 .dstin i {
