@@ -22,12 +22,10 @@ div.layer2 {
   left: 0px;
   z-index: 1;
   background-color: #2c3f52;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   text-align: center;
   opacity: 0;
   transition: 0.3s;
+  overflow: hidden;
 }
 
 p.tieude {
@@ -59,7 +57,14 @@ a.button {
   font-size: 16px;
   margin-top: 20px;
   opacity: 0;
-  transition: 3s;
+  border-radius: 3px;
+  /* border: solid 1px black; */
+  transition: 0.3s;
+  position: absolute;
+  bottom: 130px;
+  left: 152px;
+  transition-delay: 0.3s;
+  transform: translateY(200px);
 }
 
 div.toankhoi:hover .layer2 {
@@ -70,4 +75,10 @@ div.toankhoi:hover .layer2 {
 
 div.toankhoi:hover .button {
   opacity: 1;
+  transform: translateY(0px);
+}
+
+.button:hover {
+  background-color: transparent;
+  color: rgb(148, 9, 141);
 }
