@@ -29,7 +29,7 @@ $(document).ready(function () {
     // $("").addClass("display");
   });
   // xu ly cho event close
-  $("i.fa.fa-window-close").click(function (e) {
+  $("i.fa.fa-window-close, .modal").click(function (e) {
     e.preventDefault();
     closeModal();
   });
